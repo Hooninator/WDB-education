@@ -1,0 +1,208 @@
+/* Ignore following classes */
+
+* {
+  font-family: "Montserrat", sans-serif;
+  background-color: #eeeeee;
+}
+
+#intro {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 50px;
+}
+
+.insideborder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.para {
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+h2 {
+  font-size: medium;
+  font-weight: 200;
+}
+
+/* Classes that you might find useful */
+/* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+
+[class*="fancy"] {
+    font-family: fantasy;
+}
+p {
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.flag {
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem;
+}
+
+.horiz {
+  display: flex;
+  flex-direction: row;
+}
+
+.vert {
+    display: flex;
+    flex-direction: column;
+}
+
+.twovert {
+  height: 50%;
+}
+
+.threevert {
+  height: 33.3%;
+}
+
+.threehoriz {
+  width: 33.3%;
+}
+
+.skinny {
+  height: 17.5%;
+}
+
+.fat {
+  height: 30%;
+}
+
+.tiny {
+    height: 25%;
+}
+.tiny-partial {
+    height: 20%;
+}
+
+.tiny-box-end {
+    height : 40%;
+    width: 40%;
+}
+.tiny-box {
+    height : 100%;
+    width: 40%;
+}
+.tiny-stripe-h {
+    width: 20%;
+}
+.tiny-stripe-v {
+    height: 20%;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 85px;
+  top: 50px;
+}
+
+
+.img-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 33.3%;
+}
+img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eeeeee;
+    background: no-repeat white;
+}
+
+.corner-box {
+  height: 150px;
+  width: 166px;
+  border-style: solid;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: white
+}
+.corner-part {
+    height: 60px;
+    width: 166px;
+    display: flex;
+    flex-direction: row;
+    background-color: white
+}
+.corner-small {
+    height : 30px;
+    width: 166px;
+    background-color: white
+}
+.top-part {
+    height: 150px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.bottom-part {
+    height: 150px;
+    width: 500px;
+    display: flex;
+    flex-direction: column; 
+}
+.stripes {
+    height: 150px;
+    width: 344px;
+    display: flex;
+    flex-direction: column;
+}
+#greece-text{
+    color:aqua;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#header-text{
+    color:chartreuse;
+    font-size: xx-large;
+    font-weight: 400;
+    text-align: center;
+}
+/* Colors/ Feel free to add your own! */
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.lightblue {
+  background-color: lightblue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.white {
+  background-color: #fff;
+}
