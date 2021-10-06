@@ -1,0 +1,127 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: cadetblue;
+}
+
+/* For the aesthetics */
+/* Planning
+
+*/
+.nav-button { 
+    font-family:Poppins;
+    font-size: x-large;
+}
+
+.nav-button-current {
+    display: flex; 
+    font-family:Poppins;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#description-txt {
+    font-size:large ;
+    text-align: left;
+}
+
+.smaller-txt {
+    font-size: x-q;
+}
+.headline {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+}
+
+/*Flex boxes */
+.Page {
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+    height: 30%;
+    background-color:cadetblue;
+}
+
+.vertical {
+    flex-direction: column;
+}
+
+.content {
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: cadetblue;
+}
+
+.proj {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 50%;
+}
+
+.wide-box {
+    height: 18%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    background-color: white;
+    text-align: center;
+    border:3px solid black;
+    border-width: 0px;
+    margin: 10px;
+}
+
+.square-box {
+    width:47%;
+    height: 67%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    background-color: cadetblue;
+    text-align: center;
+    border:3px solid black;
+    border-width: 0px;
+    margin: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.larger-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 80%;
+    font-family: Poppins;
+    font-size: xx-large;
+    background-color: white;
+    border:3px solid black;
+    border-width: 1px;
+    margin: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.empty {
+    border:3px solid black;
+    border-width: 0px;
+    text-align: left;
+}
+
+/*Colors*/
+
+.goldenrod {
+    color: black;
+}
+.dark-blue {
+    color:darkblue;
+}
+.salmon-bck {
+    background-color: lightsalmon;
+}
+.white-bck {
+    background-color: white;
+}
